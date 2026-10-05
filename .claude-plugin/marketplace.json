@@ -1,8 +1,14 @@
 {
   "name": "region-edit",
-  "owner": { "name": "Michael Gross" },
-  "description": "Multi-agent shared-file editing for Claude Code.",
+  "owner": {
+    "name": "Michael Gross"
+  },
+  "description": "Token-efficient multi-agent editing of shared files. Region-level reads, hash-checked edits, zero lost updates.",
   "plugins": [
-    { "name": "region-edit", "source": "./", "description": "Region-level, version-checked shared file editing for multiple agents." }
+    {
+      "name": "region-edit",
+      "source": "./",
+      "description": "Token-efficient multi-agent editing of shared files. Region-level reads, hash-checked edits, zero lost updates."
+    }
   ]
 }
