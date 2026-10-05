@@ -1,0 +1,10 @@
+{
+  "name": "region-edit",
+  "displayName": "Region Edit",
+  "version": "0.1.0",
+  "description": "Lets many agents edit the same file at once without lost updates or corruption, using region-level reads and version-checked edits to keep token use low.",
+  "author": { "name": "Michael Gross" },
+  "repository": "https://github.com/MGross21/region-edit",
+  "license": "MIT",
+  "keywords": ["multi-agent", "concurrency", "editing", "mcp"]
+}
